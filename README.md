@@ -16,6 +16,8 @@ The goal of this project is to classify and distinguish between two visually sim
   - **TensorFlow / Keras** (`keras_model.h5`) for inference.
   - **Google Colab** environment for testing and execution.
 
+### Model Testing Output
+![model testing output](https://github.com/RaniaAlaqeel/Training-AI-model-Crochet-vs-Knitting-Classifier/blob/main/result.jpeg)
 ---
 
 ## 📁 Repository Structure
@@ -23,5 +25,6 @@ The goal of this project is to classify and distinguish between two visually sim
 ├── keras_model.h5      # Exported Keras model from Teachable Machine
 ├── labels.txt          # Class labels (crochet, knitting)
 ├── test.jpeg           # Sample test image used for validation
-├── main.py  # Python inference code
+├── main.py             # Python inference code
+├── result.jpeg         # the result of the test
 └── README.md           # Project documentation
